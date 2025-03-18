@@ -4,6 +4,11 @@
   <groupId>com.amitverma</groupId>
   <artifactId>jenkins-git-integration</artifactId>
   <packaging>war</packaging>
+  <plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-war-plugin</artifactId>
+    <version>3.4.0</version> <!-- Compatible with Java 17 -->
+  </plugin>
   <version>3.4.0</version>
   <name>jenkins-git-integration Maven Webapp</name>
   <url>http://maven.apache.org</url>
