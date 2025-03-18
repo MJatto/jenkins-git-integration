@@ -7,6 +7,10 @@
   <version>3.4.0</version>
   <name>jenkins-git-integration Maven Webapp</name>
   <url>http://maven.apache.org</url>
+  <properties>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
+</properties>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
